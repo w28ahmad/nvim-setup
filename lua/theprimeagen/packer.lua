@@ -72,6 +72,14 @@ return require('packer').startup(function(use)
     end,
   })
 
+  use({
+    "FabijanZulj/blame.nvim",
+    lazy = false,
+    config = function()
+      require('blame').setup {}
+    end,
+  })
+
 end)
 
 
