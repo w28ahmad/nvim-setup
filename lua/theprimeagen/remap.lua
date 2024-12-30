@@ -9,3 +9,4 @@ vim.keymap.set("n", "<leader>gb", "<CMD>BlameToggle<CR>", { desc = "Show Git Bla
 
 vim.api.nvim_set_keymap("n", "<C-p>", ":normal! O<CR>", {noremap = true, silent = true})
 
+
